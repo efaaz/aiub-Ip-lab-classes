@@ -6,7 +6,7 @@ int main()
     cout << "Enter number" << endl;
     cin >> inputNum;
     nextTerm = n1 + n2;
-    cout << "Fibonacci seriesn " << n1 << " " << n2 << " ";
+    cout << "Fibonacci series " << n1 << " " << n2 << " ";
 
     for (int i = 3; i <= inputNum; i++)
     {
