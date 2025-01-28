@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 struct empolyee
 {
     int id;
@@ -10,7 +9,6 @@ struct empolyee
     int salary;
     string joiningDate;
 };
-
 int main()
 {
     int empoloyeeNumbers = 10;

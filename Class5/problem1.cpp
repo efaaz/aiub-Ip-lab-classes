@@ -22,7 +22,6 @@ int main()
         {990, 90, 3.56},
         {10, 100, 3.00},
     };
-
     cout << "Student with cgpa greater than 3.75 " << endl;
     for (int i = 0; i < numStudents; i++)
     {
@@ -31,7 +30,6 @@ int main()
             cout << "Unique ID: " << studentsArr[i].uniqueID << endl;
         }
     }
-
     cout << "Student with credits greater than 50 " << endl;
     for (int i = 0; i < numStudents; i++)
     {
@@ -40,6 +38,5 @@ int main()
             cout << "Unique ID: " << studentsArr[i].uniqueID << endl;
         }
     }
-
     return 0;
 }
